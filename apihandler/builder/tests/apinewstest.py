@@ -5,7 +5,7 @@ import json
 from apihandler.apihandler.settings import NEWS_API_TOKEN
 
 http = urllib3.PoolManager()
-domain = "http://18.220.145.52:8001/v1/news"
+domain = "http://18.220.145.52:8002/v1/news"
 
 
 class TestNewsApi(unittest.TestCase):
