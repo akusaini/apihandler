@@ -46,3 +46,5 @@ Every rest response contains 4 field:-
  by developers. **_fields_** describe the fields responsible for raising the error.
 * data : data contains the payload returned by the API.
 
+## Unit Test
+Test are maintained under the tests directory at the path **_/apibuilder/builder/tests/_** 
