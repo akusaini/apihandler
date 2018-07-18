@@ -1,0 +1,15 @@
+# Byte-compiled / optimized / DLL files
+.tags
+.environment
+__pycache__/
+*.py[cod]
+*$py.class
+.idea
+.DS_Store
+Thumbs.db
+.gitignore.swp
+misc.xml
+modules.xml
+workspace.xml
+dictionaries/
+apihandler.iml
