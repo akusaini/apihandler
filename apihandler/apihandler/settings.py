@@ -12,7 +12,7 @@ SECRET_KEY = 'vx6*r32h^xfuud$rd)0t0s9*)94ufc503k3gj714hj#8$m5z12'
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 
