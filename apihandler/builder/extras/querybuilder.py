@@ -23,6 +23,7 @@ class QueryBuilder(object):
 		url = '%s&apiKey=%s' % (self.final_url, settings.NEWS_API_TOKEN)
 		cached_response = cache.get(url.lower())
 		if cached_response is not None:
+			print("Returning the response from the cache")
 			return cached_response
 
 		print("GET : %s" % url)
