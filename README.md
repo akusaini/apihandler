@@ -1,7 +1,8 @@
-#Apihandler
+# Apihandler
 
 
-##Prerequisite
+## Prerequisite
+
 Build the virtual environment in the root of project.
 ```python
 virtualenv -p python3 .environment
@@ -20,7 +21,8 @@ export MODE == "DEVELOPMENT"
 
 Replace the cache settings in the dev.py or prod.py accordingly.
 
-##Http Rest response
+## Http Rest response
+
 All the rest request are sharing the common format as given in sample response.
 
 ```json
