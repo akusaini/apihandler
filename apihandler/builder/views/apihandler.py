@@ -13,7 +13,7 @@ def fetch_news(request):
 
 	error_fields = []
 	query_criteria = {}
-	filterkey = request.GET.get('filterKey', None)
+	filterkey = request.GET.get('filterkey', None)
 	for query_key in ['country', 'category']:
 		param = request.GET.get(query_key, None)
 		if not param:
@@ -45,7 +45,7 @@ def fetch_news(request):
 	response_data = {
 		'category': query_criteria.get('category'),
 		'country': query_criteria.get('country'),
-		'filterKey': filterkey,
+		'filterkey': filterkey,
 		'news': news
 	}
 	return response_data, "News fetched successfully"

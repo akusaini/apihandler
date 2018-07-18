@@ -3,6 +3,7 @@ from django.core.cache import cache
 from django.conf import settings
 
 
+
 class QueryBuilder(object):
 	def __init__(self, domain, query_params={}, headers={}):
 		self.domain = domain
