@@ -3,4 +3,4 @@ django-redis==4.9.0
 django-redis-cache==1.7.1
 pytz==2018.5
 redis==2.10.6
-urllib3==1.23
+urllib3==1.26.5
